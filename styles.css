@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif; /* 設定頁面的字體 */
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 將元素在水平方向上置中對齊 */
+    align-items: center; /* 將元素在垂直方向上置中對齊 */
+    height: 100vh; /* 設定頁面高度為視窗高度 */
+    margin: 0; /* 清除頁面邊距 */
+    background-color: #f0f0f0; /* 設定頁面背景色 */
+  }
+  
+  .carousel {
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 將元素在水平方向上置中對齊 */
+    align-items: center; /* 將元素在垂直方向上置中對齊 */
+  }
+  
+  .carousel-image {
+    width: 200px; /* 設定圖片寬度 */
+    height: 200px; /* 設定圖片高度 */
+    margin-right: 20px; /* 設定圖片右邊距 */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* 設定過渡效果 */
+  }
+  
+  .carousel-image:hover {
+    transform: scale(1.2); /* 在:hover狀態下，將圖片縮放1.2倍 */
+    opacity: 0.8; /* 在:hover狀態下，將圖片不透明度降低到0.8 */
+  }
+  
